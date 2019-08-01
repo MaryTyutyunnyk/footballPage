@@ -1,7 +1,7 @@
 {
-  "name": "sportlabs-group",
+  "name": "footballPage",
   "version": "1.0.0",
-  "description": "Test task for SportLabs Group",
+  "description": "Football page",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,4 +23,3 @@
     "gulp-sourcemaps": "^2.6.5"
   }
 }
-
