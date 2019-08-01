@@ -1,0 +1,26 @@
+{
+  "name": "sportlabs-group",
+  "version": "1.0.0",
+  "description": "Test task for SportLabs Group",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mary Tyutyunnik",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-clean": "0.4.0",
+    "gulp-concat": "2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "4.0.2",
+    "gulp-sequence": "1.0.0",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
+
