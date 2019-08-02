@@ -12,6 +12,7 @@
 
   .matchTableList {
     display: flex;
+    overflow-x: auto;
   }
 
   .matchTableListItem_active {
@@ -98,11 +99,15 @@
 
     &__teamName {
       font-size: 14px;
+      width: 88px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     &__teamScore {
       position: absolute;
-      right: 8px;
+      right: 11px;
       bottom: 0;
       display: flex;
       font-size: 18px;
