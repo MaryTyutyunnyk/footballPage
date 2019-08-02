@@ -1,0 +1,22 @@
+@import "./common/_reset.scss";
+@import "./common/_variables.scss";
+@import "./common/_mixins.scss";
+@import "./common/_common.scss";
+
+@import "./modules/header/media_320.scss";
+@import "./modules/header/media_1200.scss";
+
+@import "./modules/breadCrumbs/media_320.scss";
+@import "./modules/breadCrumbs/media_480.scss";
+//@import "./modules/breadCrumbs/media_768.scss";
+@import "./modules/breadCrumbs/media_1200.scss";
+
+@import "modules/matchTable/media_320.scss";
+@import "modules/matchTable/media_1200.scss";
+
+@import "modules/mainContent/media_320.scss";
+@import "modules/mainContent/media_480.scss";
+//@import "./modules/mainContent/media_768.scss";
+@import "modules/mainContent/media_1200.scss";
+
+

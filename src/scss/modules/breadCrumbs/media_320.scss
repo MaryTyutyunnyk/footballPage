@@ -1,0 +1,23 @@
+.breadCrumbs {
+  display: flex;
+  background-color: #f8f8f8;
+  padding: 6px 10px 5px;
+
+  &__link {
+    &_active {
+      &::after {
+        display: inline-block;
+        width: 5px;
+        height: 10px;
+        margin: 0 7px 0 9px;
+        background-image: url("../img/arrow_right.svg");
+        content: "";
+      }
+    }
+  }
+
+  &__name{
+    color: $ligth_grey;
+    font-size: 12px;
+  }
+}

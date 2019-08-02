@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 22px 10px 19px;
+  background-color: $black;
+}
+
+.navbarBurger {
+  margin-right: 35px;
+}
+
+.navbarMenu {
+  display: none;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: auto;
+  width: 69px;
+  height: 31px;
+  background-image: url("../img/logo.png");
+}
+
+.navbarTools {
+  display: flex;
+  align-items: center;
+
+  &__icon {
+    display: inline-block;
+  }
+}
+
+.navbarToolsSearch {
+  margin-right: 29px;
+}
+
+.navbarLanguage {
+  display: none;
+}
+
+.navbarToolsSearch__icon {
+  width: 18px;
+  height: 18px;
+}
+
+.navbarUserTool__icon {
+  width: 20px;
+  height: 20px;
+}
+
+

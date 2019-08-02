@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Football Page</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbarBurger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12">
+                    <g>
+                        <g>
+                            <path fill="#fff"
+                                  d="M0 11a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1zm0-5a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1zm1-6h16a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2z"/>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+
+            <ul class="navbarMenu">
+                <li class="navbarMenu__item">
+                    <a href="javascript://" class="navbarMenu__link dropdown__link">Украина</a>
+                </li>
+                <li class="navbarMenu__item">
+                    <a href="javascript://" class="navbarMenu__link dropdown__link">Страны</a>
+                </li>
+                <li class="navbarMenu__item">
+                    <a href="javascript://" class="navbarMenu__link dropdown__link">Турниры</a>
+                </li>
+                <li class="navbarMenu__item">
+                    <a href="javascript://" class="navbarMenu__link">Прогнозы</a>
+                </li>
+                <li class="navbarMenu__item">
+                    <a href="javascript://" class="navbarMenu__link">Матч-центр</a>
+                </li>
+                <li class="navbarMenu__item">
+                    <a href="javascript://" class="navbarMenu__link">Видео</a>
+                </li>
+                <li class="navbarMenu__item">
+                    <a href="javascript://" class="navbarMenu__link">LifeStyle</a>
+                </li>
+                <li class="navbarMenu__item">
+                    <a href="javascript://" class="navbarMenu__link">Рейтинги</a>
+                </li>
+                <li class="navbarMenu__item">
+                    <a href="javascript://" class="navbarMenu__link">Спорт</a>
+                </li>
+                <li class="navbarMenu__item">
+                    <a href="javascript://" class="navbarMenu__link">ТВ</a>
+                </li>
+                <li class="navbarMenu__item">
+                    <a href="javascript://" class="navbarMenu__link">...</a>
+                </li>
+            </ul>
+
+            <a href="javascript://" class="logo"></a>
+            <ul class="navbarTools">
+                <li class="navbarTools__item navbarToolsSearch">
+                    <a href="javascript://" class="navbarTools__link">
+                        <svg class="navbarTools__icon navbarToolsSearch__icon" xmlns="http://www.w3.org/2000/svg"
+                             width="18" height="18"
+                             viewBox="0 0 18 18">
+                            <g>
+                                <g>
+                                    <path fill="#fff"
+                                          d="M12.502 11l4.988 5-1.491 1.49L11 12.5v-.792l-.276-.274A6.47 6.47 0 0 1 6.5 13 6.5 6.5 0 1 1 13 6.5a6.47 6.47 0 0 1-1.568 4.226l.276.274zM6.5 11a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9z"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li class="navbarTools__item navbarUserTool">
+                    <a href="javascript://" class="navbarTools__link">
+                        <svg class="navbarTools__icon navbarUserTool__icon" xmlns="http://www.w3.org/2000/svg"
+                             width="20"
+                             height="20"
+                             viewBox="0 0 20 20">
+                            <g>
+                                <g>
+                                    <path fill="#fff"
+                                          d="M20 10c0 5.52-4.48 10-10 10S0 15.52 0 10 4.48 0 10 0s10 4.48 10 10zM7 6c0 1.66 1.34 3 3 3s3-1.34 3-3-1.34-3-3-3-3 1.34-3 3zm9 7.98c-.03-1.99-4.01-3.08-6-3.08-2 0-5.97 1.09-6 3.08a7.2 7.2 0 0 0 12 0z"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li class="navbarTools__item navbarLanguage">
+                    <a href="javascript://" class="navbarTools__icon navbarLanguage__link dropdown__link">Рус</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <div class="container">
+        <ol class="breadCrumbs">
+            <li class="breadCrumbs__item">
+                <a href="javascript://" class="breadCrumbs__link breadCrumbs__link_active">
+                    <span class="breadCrumbs__name">UA-Футбол</span>
+                </a>
+            </li>
+            <li class="breadCrumbs__item">
+                <a href="javascript://" class="breadCrumbs__link">
+                    <span class="breadCrumbs__name">Англия. Премьер Лига</span>
+                </a>
+            </li>
+        </ol>
+
+        <div class="matchTable">
+            <div class="matchTable__arrow matchTable__arrow_previous">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <g>
+                        <g>
+                            <path fill="#9a9caf" d="M20 20H0V0h20z"/>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="matchTableList">
+                <a href="javascript://" class="matchTableListItem">
+                    <div class="matchTableListItem__header">
+                        <div class="matchTableListItem__matchTime">
+                            <span class="matchTableListItem__day">Сегодня</span>
+                            <span class="matchTableListItem__time">12:00</span>
+                        </div>
+                        <span class="matchTableListItem__matchResult">Ft</span>
+                    </div>
+                    <div class="matchTableListItem__team">
+                        <div class="matchTableListItem__teamInfo">
+                            <img class="matchTableListItem__img" src="./img/paris.png" alt="Paris">
+                            <span class="matchTableListItem__teamName">Пари Сен-Ж…</span>
+                        </div>
+                        <span class="matchTableListItem__teamScore">
+                            <span class="matchTableListItem__score">4</span>
+                        </span>
+                    </div>
+                    <div class="matchTableListItem__team">
+                        <div class="matchTableListItem__teamInfo">
+                            <img class="matchTableListItem__img" src="./img/spain.png" alt="Spain">
+                            <span class="matchTableListItem__teamName">Барселона</span>
+                        </div>
+                        <span class="matchTableListItem__teamScore">
+                            <span class="matchTableListItem__score">0</span>
+                        </span>
+                    </div>
+                </a>
+                <a href="javascript://" class="matchTableListItem">
+                    <div class="matchTableListItem__header">
+                        <div class="matchTableListItem__matchTime">
+                            <span class="matchTableListItem__day">Сегодня</span>
+                            <span class="matchTableListItem__time">12:00</span>
+                        </div>
+                        <span class="matchTableListItem__matchResult">Ft</span>
+                    </div>
+                    <div class="matchTableListItem__team">
+                        <div class="matchTableListItem__teamInfo">
+                            <img class="matchTableListItem__img" src="./img/paris.png" alt="Paris">
+                            <span class="matchTableListItem__teamName">Пари Сен-Ж…</span>
+                        </div>
+                        <span class="matchTableListItem__teamScore">
+                            <span class="matchTableListItem__score">4</span>
+                        </span>
+                    </div>
+                    <div class="matchTableListItem__team">
+                        <div class="matchTableListItem__teamInfo">
+                            <img class="matchTableListItem__img" src="./img/spain.png" alt="Spain">
+                            <span class="matchTableListItem__teamName">Барселона</span>
+                        </div>
+                        <span class="matchTableListItem__teamScore">
+                            <span class="matchTableListItem__score">0</span>
+                        </span>
+                    </div>
+                </a>
+                <a href="javascript://" class="matchTableListItem">
+                    <div class="matchTableListItem__header">
+                        <div class="matchTableListItem__matchTime">
+                            <span class="matchTableListItem__day">Сегодня</span>
+                            <span class="matchTableListItem__time">12:00</span>
+                        </div>
+                        <span class="matchTableListItem__matchResult">Ft</span>
+                    </div>
+                    <div class="matchTableListItem__team">
+                        <div class="matchTableListItem__teamInfo">
+                            <img class="matchTableListItem__img" src="./img/paris.png" alt="Paris">
+                            <span class="matchTableListItem__teamName">Пари Сен-Ж…</span>
+                        </div>
+                        <span class="matchTableListItem__teamScore">
+                            <span class="matchTableListItem__score">4</span>
+                        </span>
+                    </div>
+                    <div class="matchTableListItem__team">
+                        <div class="matchTableListItem__teamInfo">
+                            <img class="matchTableListItem__img" src="./img/spain.png" alt="Spain">
+                            <span class="matchTableListItem__teamName">Барселона</span>
+                        </div>
+                        <span class="matchTableListItem__teamScore">
+                            <span class="matchTableListItem__score">0</span>
+                        </span>
+                    </div>
+                </a>
+                <a href="javascript://" class="matchTableListItem">
+                    <div class="matchTableListItem__header">
+                        <div class="matchTableListItem__matchTime">
+                            <span class="matchTableListItem__day">Сегодня</span>
+                            <span class="matchTableListItem__time">12:00</span>
+                        </div>
+                        <span class="matchTableListItem__matchResult">Ft</span>
+                    </div>
+                    <div class="matchTableListItem__team">
+                        <div class="matchTableListItem__teamInfo">
+                            <img class="matchTableListItem__img" src="./img/paris.png" alt="Paris">
+                            <span class="matchTableListItem__teamName">Пари Сен-Ж…</span>
+                        </div>
+                        <span class="matchTableListItem__teamScore matchTableListItem__teamScore_add">
+                            <span class="matchTableListItem__score">0</span>
+                            <span class="matchTableListItem__score_add">(5)</span>
+                        </span>
+                    </div>
+                    <div class="matchTableListItem__team">
+                        <div class="matchTableListItem__teamInfo">
+                            <img class="matchTableListItem__img" src="./img/spain.png" alt="Spain">
+                            <span class="matchTableListItem__teamName">Барселона</span>
+                        </div>
+                        <span class="matchTableListItem__teamScore matchTableListItem__teamScore_add">
+                            <span class="matchTableListItem__score">0</span>
+                            <span class="matchTableListItem__score_add">(4)</span>
+                        </span>
+                    </div>
+                </a>
+                <a href="javascript://" class="matchTableListItem matchTableListItem_active">
+                    <div class="matchTableListItem__header">
+                        <div class="matchTableListItem__matchTime">
+                            <span class="matchTableListItem__day">Сегодня</span>
+                            <span class="matchTableListItem__time">12:00</span>
+                        </div>
+                        <span class="matchTableListItem__matchResult">Live</span>
+                    </div>
+                    <div class="matchTableListItem__team">
+                        <div class="matchTableListItem__teamInfo">
+                            <img class="matchTableListItem__img" src="./img/paris.png" alt="Paris">
+                            <span class="matchTableListItem__teamName">Пари Сен-Ж…</span>
+                        </div>
+                        <span class="matchTableListItem__teamScore">
+                            <span class="matchTableListItem__score">0</span>
+                        </span>
+                    </div>
+                    <div class="matchTableListItem__team">
+                        <div class="matchTableListItem__teamInfo">
+                            <img class="matchTableListItem__img" src="./img/spain.png" alt="Spain">
+                            <span class="matchTableListItem__teamName">Барселона</span>
+                        </div>
+                        <span class="matchTableListItem__teamScore">
+                            <span class="matchTableListItem__score">0</span>
+                        </span>
+                    </div>
+                </a>
+                <a href="javascript://" class="matchTableListItem">
+                    <div class="matchTableListItem__header">
+                        <div class="matchTableListItem__matchTime">
+                            <span class="matchTableListItem__day">Сегодня</span>
+                            <span class="matchTableListItem__time">12:00</span>
+                        </div>
+                        <span class="matchTableListItem__matchResult"></span>
+                    </div>
+                    <div class="matchTableListItem__team">
+                        <div class="matchTableListItem__teamInfo">
+                            <img class="matchTableListItem__img" src="./img/paris.png" alt="Paris">
+                            <span class="matchTableListItem__teamName">Пари Сен-Ж…</span>
+                        </div>
+                        <span class="matchTableListItem__teamScore">
+                            <span class="matchTableListItem__score">-</span>
+                        </span>
+                    </div>
+                    <div class="matchTableListItem__team">
+                        <div class="matchTableListItem__teamInfo">
+                            <img class="matchTableListItem__img" src="./img/spain.png" alt="Spain">
+                            <span class="matchTableListItem__teamName">Барселона</span>
+                        </div>
+                        <span class="matchTableListItem__teamScore">
+                            <span class="matchTableListItem__score">-</span>
+                        </span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="matchTable__arrow matchTable__arrow_next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <g>
+                        <g>
+                            <path fill="#9a9caf" d="M0 0h20v20H0z"/>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+        <section class="mainContent">
+
+            <div class="mainNews">
+                <div class="mainSlider">
+                    <div class="mainSlider__arrow mainSlider__arrow_previous">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g>
+                                <g>
+                                    <path fill="#9a9caf" d="M20 20H0V0h20z"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="mainSliderList">
+                        <div class="mainSliderListItem">
+                            <a href="javascript://" class="mainSliderListItem__link">
+                                <img class="mainSliderListItem__img" src="./img/mainSlider_img.png" alt="Photo">
+                                <div class="mainSliderListItem__info">
+                                    <span class="mainSliderListItem__category">Премьер лига Англии</span>
+                                    <span class="mainSliderListItem__publicationTime">20:45</span>
+                                    <span class="mainSliderListItem__publicationDate">12 декабря 2019</span>
+                                    <h2 class="mainSliderListItem__title">
+                                        Модрич: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро
+                                        <span class="mainSliderListItem__comments">183</span>
+                                    </h2>
+                                    <p class="mainSliderListItem__paragraph">
+                                        Обладатель Золотого мяча не помог вице-чемпиону мира обыграть скромную Венгрию
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="mainSlider__arrow mainSlider__arrow_next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <g>
+                                <g>
+                                    <path fill="#9a9caf" d="M0 0h20v20H0z"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <ol class="mainSliderNavigation">
+                        <li class="mainSliderNavigation__item">
+                            <span></span>
+                        </li>
+                        <li class="mainSliderNavigation__item mainSliderNavigation__item_active">
+                            <span></span>
+                        </li>
+                        <li class="mainSliderNavigation__item">
+                            <span></span>
+                        </li>
+                        <li class="mainSliderNavigation__item">
+                            <span></span>
+                        </li>
+                        <li class="mainSliderNavigation__item">
+                            <span></span>
+                        </li>
+                    </ol>
+                </div>
+                <div class="newsFeed">
+
+                </div>
+            </div>
+
+            <aside class="asideBarNews">
+
+            </aside>
+        </section>
+    </div>
+</main>
+
+
+</body>
+</html>
