@@ -2,6 +2,7 @@
 
   .mainContent {
     flex-direction: row;
+    align-items: flex-start;
     padding: 20px 20px 19px 19px;
   }
 
@@ -58,91 +59,92 @@
       opacity: 0.8;
     }
   }
-}
 
-.mainSliderNavigation {
 
-  &__item {
-    margin-right: 10px;
+  .mainSliderNavigation {
 
-    span {
-      width: 50px;
+    &__item {
+      margin-right: 10px;
+
+      span {
+        width: 50px;
+      }
     }
   }
-}
 
-.news {
-  padding: 16px 0 0 0;
+  .news {
+    padding: 16px 0 0 0;
 
-  &__loadMore {
-    display: none;
-  }
-}
-
-.newsFeed {
-  border: 1px solid #f4f5f6;
-  border-radius: 4px;
-}
-
-.newsFeedItem {
-  padding: 16px 18px;
-
-  &__header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 9px;
+    &__loadMore {
+      display: none;
+    }
   }
 
-  &__info {
-    font-size: 12px;
+  .newsFeed {
+    border: 1px solid #f4f5f6;
+    border-radius: 4px;
   }
 
-  &__date {
-    margin-right: 13px;
+  .newsFeedItem {
+    padding: 16px 18px;
+
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 9px;
+    }
+
+    &__info {
+      font-size: 12px;
+    }
+
+    &__date {
+      margin-right: 13px;
+    }
+
+    &__comments {
+      //position: absolute;
+      font-size: 12px;
+    }
+
+    &__content {
+      display: flex;
+      align-items: center;
+    }
+
+    &__img {
+      margin-right: 12px;
+    }
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__title {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    &__paragraph {
+      display: block;
+      color: $black;
+      font-size: 12px;
+      opacity: 0.87;
+    }
   }
 
-  &__comments {
-    //position: absolute;
-    font-size: 12px;
+  .newsPagination {
+    padding: 20px 0 19px;
   }
 
-  &__content {
-    display: flex;
-    align-items: center;
-  }
-
-  &__img {
-    margin-right: 12px;
-  }
-
-  &__text {
-    display: flex;
-    flex-direction: column;
-  }
-
-  &__title {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: normal;
-  }
-
-  &__paragraph {
-    display: block;
-    color: $black;
-    font-size: 12px;
-    opacity: 0.87;
-  }
-}
-
-.newsPagination {
-  padding: 20px 0 19px;
-}
-
-.newsPaginationList {
-  &__link {
-    width: 24px;
-    height: 24px;
-    font-size: 16px;
+  .newsPaginationList {
+    &__link {
+      width: 24px;
+      height: 24px;
+      font-size: 16px;
+    }
   }
 }
 
