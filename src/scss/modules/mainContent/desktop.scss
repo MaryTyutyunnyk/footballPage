@@ -10,27 +10,41 @@
     margin-right: 21px;
   }
 
-  .mainSlider {
-    &__arrow {
+  .mainSliderArrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 4%;
+    bottom: 0;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
+
+    &__previous {
+      left: 0;
+    }
+
+    &__next {
+      right: 0;
+    }
+
+    &__icon {
       display: inline-block;
-      position: absolute;
-      height: 100%;
-      bottom: -45%;
-      z-index: 1;
-      cursor: pointer;
+      width: 7px;
+      height: 11px;
 
       &_previous {
-        left: 10px
+        background-image: url("../../../img/matchTableArrow__previous.png");
       }
 
       &_next {
-        right: 10px;
+        background-image: url("../../../img/matchTableArrow__next.png");
       }
     }
   }
 
   .mainSliderListItem {
-
     &__info {
       position: absolute;
       bottom: 0;
@@ -65,28 +79,41 @@
 
     &__item {
       margin-right: 10px;
+    }
 
-      span {
-        width: 50px;
-      }
+    &__line {
+      width: 50px;
     }
   }
 
   .news {
-    padding: 16px 0 0 0;
-
     &__loadMore {
       display: none;
+    }
+
+    &__date {
+      margin: 20px 0;
+      padding: 12px 0 9px;
+
     }
   }
 
   .newsFeed {
     border: 1px solid #f4f5f6;
     border-radius: 4px;
+    padding: 16px 0 0 0;
+  }
+
+  .newsFeedMobile {
+    display: none;
+  }
+
+  .newsFeedDesktop {
+    display: flex;
   }
 
   .newsFeedItem {
-    padding: 16px 18px;
+    padding: 0 18px 16px 18px;
 
     &__header {
       display: flex;
@@ -95,16 +122,12 @@
     }
 
     &__info {
+      margin-bottom: 11px;
       font-size: 12px;
     }
 
     &__date {
       margin-right: 13px;
-    }
-
-    &__comments {
-      //position: absolute;
-      font-size: 12px;
     }
 
     &__content {
@@ -141,9 +164,23 @@
 
   .newsPaginationList {
     &__link {
-      width: 24px;
-      height: 24px;
+      padding: 2px 8px;
       font-size: 16px;
+
+      &:nth-child(6n),
+      &:last-child {
+        display: flex;
+      }
+    }
+  }
+
+  .newsPaginationArrow {
+    &__previous {
+      margin-right: 9px;
+    }
+
+    &__next {
+      margin-left: 9px;
     }
   }
 }

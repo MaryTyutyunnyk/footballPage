@@ -112,14 +112,8 @@
         </ol>
 
         <div class="matchTable">
-            <div class="matchTable__arrow matchTable__arrow_previous">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-                    <g>
-                        <g>
-                            <path fill="#9a9caf" d="M20 20H0V0h20z"/>
-                        </g>
-                    </g>
-                </svg>
+            <div class="matchTableArrow">
+                <i class="matchTableArrow__previous"></i>
             </div>
 
             <div class="matchTableList">
@@ -289,14 +283,8 @@
                 </a>
             </div>
 
-            <div class="matchTable__arrow matchTable__arrow_next">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-                    <g>
-                        <g>
-                            <path fill="#9a9caf" d="M0 0h20v20H0z"/>
-                        </g>
-                    </g>
-                </svg>
+            <div class="matchTableArrow">
+                <i class="matchTableArrow__next"></i>
             </div>
         </div>
 
@@ -304,14 +292,8 @@
 
             <div class="mainNews">
                 <div class="mainSlider">
-                    <div class="mainSlider__arrow mainSlider__arrow_previous">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-                            <g>
-                                <g>
-                                    <path fill="#9a9caf" d="M20 20H0V0h20z"/>
-                                </g>
-                            </g>
-                        </svg>
+                    <div class="mainSliderArrow mainSliderArrow__previous">
+                        <i class="mainSliderArrow__icon mainSliderArrow__icon_previous"></i>
                     </div>
 
                     <div class="mainSliderList">
@@ -335,86 +317,67 @@
                                 </div>
                             </a>
                         </div>
-
                     </div>
 
-                    <div class="mainSlider__arrow mainSlider__arrow_next">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-                            <g>
-                                <g>
-                                    <path fill="#9a9caf" d="M0 0h20v20H0z"/>
-                                </g>
-                            </g>
-                        </svg>
+                    <div class="mainSliderArrow mainSliderArrow__next">
+                        <i class="mainSliderArrow__icon mainSliderArrow__icon_next"></i>
                     </div>
 
                     <ul class="mainSliderNavigation">
                         <li class="mainSliderNavigation__item">
-                            <span></span>
+                            <span class="mainSliderNavigation__line"></span>
                         </li>
                         <li class="mainSliderNavigation__item mainSliderNavigation__item_active">
-                            <span></span>
+                            <span class="mainSliderNavigation__line"></span>
                         </li>
                         <li class="mainSliderNavigation__item">
-                            <span></span>
+                            <span class="mainSliderNavigation__line"></span>
                         </li>
                         <li class="mainSliderNavigation__item">
-                            <span></span>
+                            <span class="mainSliderNavigation__line"></span>
                         </li>
                         <li class="mainSliderNavigation__item">
-                            <span></span>
+                            <span class="mainSliderNavigation__line"></span>
                         </li>
                     </ul>
                 </div>
                 <div class="news">
-                    <div class="newsFeed">
+                    <div class="newsFeed newsFeedMobile">
                         <a href="javascript://" class="newsFeedItem">
+                            <div class="newsFeedItem__info newsFeedItemMobile__info">
+                                <div class="newsFeedItem__time newsFeedItemMobile__time">
+                                    <span class="newsFeedItem__date">Вчера, 15:45</span>
+                                    <span class="newsFeedItem__category">Лига Европы</span>
+                                </div>
+                                <span class="newsFeedItem__comments newsFeedItemMobile__comments">
+                                    <i class="newsFeedItem__icon"></i>
+                                    1
+                                </span>
+                            </div>
                             <div class="newsFeedItem__content">
-                                <img class="newsFeedItem__img" src="./img/newsPhoto.png" alt="Photo">
+                                <img class="newsFeedItem__img newsFeedItem__img_mobile" src="./img/newsPhoto.png"
+                                     alt="Photo">
+
                                 <div class="newsFeedItem__text">
-                                    <div class="newsFeedItem__info">
-                                        <span class="newsFeedItem__date">Вчера, 15:45</span>
-                                        <span class="newsFeedItem__category">Лига Европы</span>
-                                    </div>
                                     <h3 class="newsFeedItem__title">
                                         Отбор к Евро-2019 (U-21). Украина - Андорра. Анонс и прогноз матча квалифик…
-                                        <span class="newsFeedItem__comments">
-                                                <i class="newsFeedItem__icon"></i>
-                                                1
-                                            </span>
                                     </h3>
                                     <p class="newsFeedItem__paragraph">После победы над сборной Латвии (3:2) подопечные
                                         Александра Головко не имеют права терять очки в поединке…</p>
                                 </div>
                             </div>
                         </a>
+                    </div>
+                    <div class="newsFeed newsFeedDesktop">
                         <a href="javascript://" class="newsFeedItem">
                             <div class="newsFeedItem__content">
-                                <img class="newsFeedItem__img" src="./img/newsPhoto.png" alt="Photo">
+                                <img class="newsFeedItem__img newsFeedItem__img_desktop" src="./img/newsPhoto_3.png"
+                                     alt="Photo">
+
                                 <div class="newsFeedItem__text">
                                     <div class="newsFeedItem__info">
                                         <span class="newsFeedItem__date">Вчера, 15:45</span>
-                                        <span class="newsFeedItem__category">Лига Европы</span>
-                                    </div>
-                                    <h3 class="newsFeedItem__title">
-                                        Отбор к Евро-2019 (U-21). Украина - Андорра. Анонс и прогноз матча квалифик…
-                                        <span class="newsFeedItem__comments">
-                                                <i class="newsFeedItem__icon"></i>
-                                                1
-                                            </span>
-                                    </h3>
-                                    <p class="newsFeedItem__paragraph">После победы над сборной Латвии (3:2) подопечные
-                                        Александра Головко не имеют права терять очки в поединке…</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="javascript://" class="newsFeedItem">
-                            <div class="newsFeedItem__content">
-                                <img class="newsFeedItem__img" src="./img/newsPhoto.png" alt="Photo">
-                                <div class="newsFeedItem__text">
-                                    <div class="newsFeedItem__info">
-                                        <span class="newsFeedItem__date">Вчера, 15:45</span>
-                                        <span class="newsFeedItem__category">Лига Европы</span>
+                                        <span class="newsFeedItem__category">Премьер Лига Англии</span>
                                     </div>
                                     <h3 class="newsFeedItem__title">
                                         Отбор к Евро-2019 (U-21). Украина - Андорра. Анонс и прогноз матча квалифик…
@@ -430,16 +393,45 @@
                         </a>
                     </div>
 
+
                     <div class="news__date">Вчера, 11 сентября 2018, среда</div>
 
-                    <div class="newsFeed">
+                    <div class="newsFeed newsFeedMobile">
+                        <a href="javascript://" class="newsFeedItem">
+                            <div class="newsFeedItem__info newsFeedItemMobile__info">
+                                <div class="newsFeedItem__time newsFeedItemMobile__time">
+                                    <span class="newsFeedItem__date">Вчера, 15:45</span>
+                                    <span class="newsFeedItem__category">Лига Европы</span>
+                                </div>
+                                <span class="newsFeedItem__comments newsFeedItemMobile__comments">
+                                    <i class="newsFeedItem__icon"></i>
+                                    1
+                                </span>
+                            </div>
+                            <div class="newsFeedItem__content">
+                                <img class="newsFeedItem__img newsFeedItem__img_mobile" src="./img/newsPhoto.png"
+                                     alt="Photo">
+
+                                <div class="newsFeedItem__text">
+                                    <h3 class="newsFeedItem__title">
+                                        Отбор к Евро-2019 (U-21). Украина - Андорра. Анонс и прогноз матча квалифик…
+                                    </h3>
+                                    <p class="newsFeedItem__paragraph">После победы над сборной Латвии (3:2) подопечные
+                                        Александра Головко не имеют права терять очки в поединке…</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="newsFeed newsFeedDesktop">
                         <a href="javascript://" class="newsFeedItem">
                             <div class="newsFeedItem__content">
-                                <img class="newsFeedItem__img" src="./img/newsPhoto.png" alt="Photo">
+                                <img class="newsFeedItem__img newsFeedItem__img_desktop" src="./img/newsPhoto_3.png"
+                                     alt="Photo">
+
                                 <div class="newsFeedItem__text">
                                     <div class="newsFeedItem__info">
                                         <span class="newsFeedItem__date">Вчера, 15:45</span>
-                                        <span class="newsFeedItem__category">Лига Европы</span>
+                                        <span class="newsFeedItem__category">Премьер Лига Англии</span>
                                     </div>
                                     <h3 class="newsFeedItem__title">
                                         Отбор к Евро-2019 (U-21). Украина - Андорра. Анонс и прогноз матча квалифик…
@@ -459,7 +451,9 @@
                         Загрузить еще
                     </a>
                     <div class="newsPagination">
-                        <div class="newsPagination__arrow newsPagination__arrow_prev"></div>
+                        <div class="newsPaginationArrow newsPaginationArrow__previous">
+                            <i class="newsPaginationArrow__icon newsPaginationArrow__icon_previous"></i>
+                        </div>
 
                         <div class="newsPaginationList">
                             <a href="javascript://" class="newsPaginationList__link active">1</a>
@@ -467,9 +461,13 @@
                             <a href="javascript://" class="newsPaginationList__link">3</a>
                             <a href="javascript://" class="newsPaginationList__link">...</a>
                             <a href="javascript://" class="newsPaginationList__link">109</a>
+                            <a href="javascript://" class="newsPaginationList__link">110</a>
+                            <a href="javascript://" class="newsPaginationList__link">111</a>
                         </div>
 
-                        <div class="newsPagination__arrow newsPagination__arrow_prev"></div>
+                        <div class="newsPaginationArrow newsPaginationArrow__next">
+                            <i class="newsPaginationArrow__icon newsPaginationArrow__icon_next"></i>
+                        </div>
 
                     </div>
                 </div>
@@ -585,177 +583,256 @@
 
 <footer class="footer">
     <div class="container">
-        <div class="footerNavigation">
-            <div class="footerNavigationCategory">
-                <div class="footerNavigationCategory__title">Украина</div>
-                <div class="footerNavigationCategoryBox">
-                    <div class="footerNavigationCategoryBox__content">
-                        <ul class="footerNavigationCategoryList">
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Премьер-Лига</a>
-                            </li>
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Сборная Украины</a>
-                            </li>
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Первая Лига</a>
-                            </li>
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Вторая Лига</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footerNavigationCategoryBox__content">
-                        <ul class="footerNavigationCategoryList">
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Аматорский футбол</a>
-                            </li>
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Футзал</a>
-                            </li>
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Кубок Украины</a>
-                            </li>
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Наши за границе</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footerNavigationCategory">
-                <div class="footerNavigationCategory__title">Мир</div>
-                <div class="footerNavigationCategoryBox">
-                    <div class="footerNavigationCategoryBox__content">
-                        <ul class="footerNavigationCategoryList">
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Чемпионат Англии</a>
-                            </li>
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Чемпионат Испании</a>
-                            </li>
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Чемпионат Италии</a>
-                            </li>
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Чемпионат Франции</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footerNavigationCategoryBox__content">
-                        <ul class="footerNavigationCategoryList">
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Чемпионат Германии</a>
-                            </li>
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Чемпионат России</a>
-                            </li>
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Лига чемпионов</a>
-                            </li>
-                            <li class="footerNavigationCategoryList__item">
-                                <a href="javascript://" class="footerNavigationCategoryList__link">Лига Европы</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footerNavigationCategory footerNavigationCategorySub">
-                <div class="footerNavigationCategory__sub">
-                    <div class="footerNavigationCategory__title">Турниры</div>
+        <div class="footer__content">
+            <div class="footerNavigation">
+                <div class="footerNavigationCategory">
+                    <div class="footerNavigationCategory__title">Украина</div>
                     <div class="footerNavigationCategoryBox">
                         <div class="footerNavigationCategoryBox__content">
                             <ul class="footerNavigationCategoryList">
                                 <li class="footerNavigationCategoryList__item">
-                                    <a href="javascript://" class="footerNavigationCategoryList__link">Лига чемпионов</a>
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Премьер-Лига</a>
+                                </li>
+                                <li class="footerNavigationCategoryList__item">
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Сборная
+                                        Украины</a>
+                                </li>
+                                <li class="footerNavigationCategoryList__item">
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Первая Лига</a>
+                                </li>
+                                <li class="footerNavigationCategoryList__item">
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Вторая Лига</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footerNavigationCategoryBox__content">
+                            <ul class="footerNavigationCategoryList">
+                                <li class="footerNavigationCategoryList__item">
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Аматорский
+                                        футбол</a>
+                                </li>
+                                <li class="footerNavigationCategoryList__item">
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Футзал</a>
+                                </li>
+                                <li class="footerNavigationCategoryList__item">
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Кубок Украины</a>
+                                </li>
+                                <li class="footerNavigationCategoryList__item">
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Наши за
+                                        границе</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footerNavigationCategory">
+                    <div class="footerNavigationCategory__title">Мир</div>
+                    <div class="footerNavigationCategoryBox">
+                        <div class="footerNavigationCategoryBox__content">
+                            <ul class="footerNavigationCategoryList">
+                                <li class="footerNavigationCategoryList__item">
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Чемпионат
+                                        Англии</a>
+                                </li>
+                                <li class="footerNavigationCategoryList__item">
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Чемпионат
+                                        Испании</a>
+                                </li>
+                                <li class="footerNavigationCategoryList__item">
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Чемпионат
+                                        Италии</a>
+                                </li>
+                                <li class="footerNavigationCategoryList__item">
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Чемпионат
+                                        Франции</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footerNavigationCategoryBox__content">
+                            <ul class="footerNavigationCategoryList">
+                                <li class="footerNavigationCategoryList__item">
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Чемпионат
+                                        Германии</a>
+                                </li>
+                                <li class="footerNavigationCategoryList__item">
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Чемпионат
+                                        России</a>
+                                </li>
+                                <li class="footerNavigationCategoryList__item">
+                                    <a href="javascript://" class="footerNavigationCategoryList__link">Лига
+                                        чемпионов</a>
                                 </li>
                                 <li class="footerNavigationCategoryList__item">
                                     <a href="javascript://" class="footerNavigationCategoryList__link">Лига Европы</a>
                                 </li>
-                                <li class="footerNavigationCategoryList__item">
-                                    <a href="javascript://" class="footerNavigationCategoryList__link">Чемпионат Мира 2018</a>
-                                </li>
-                                <li class="footerNavigationCategoryList__item">
-                                    <a href="javascript://" class="footerNavigationCategoryList__link">Лига Наций</a>
-                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="footerNavigationCategory__sub">
-                    <div class="footerNavigationCategory__title">Разное</div>
-                    <div class="footerNavigationCategoryBox">
-                        <div class="footerNavigationCategoryBox__content">
-                            <ul class="footerNavigationCategoryList">
-                                <li class="footerNavigationCategoryList__item">
-                                    <a href="javascript://" class="footerNavigationCategoryList__link">Рейтинг ФИФА</a>
-                                </li>
-                                <li class="footerNavigationCategoryList__item">
-                                    <a href="javascript://" class="footerNavigationCategoryList__link">Рейтинг УЕФА</a>
-                                </li>
-                                <li class="footerNavigationCategoryList__item">
-                                    <a href="javascript://" class="footerNavigationCategoryList__link">Рейтинг клубов</a>
-                                </li>
-                                <li class="footerNavigationCategoryList__item">
-                                    <a href="javascript://" class="footerNavigationCategoryList__link">Трансферы</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-        </div>
-        <div class="footerMenu">
-            <div class="footerMenuSocialMedia">
+                <div class="footerNavigationCategory footerNavigationCategorySub">
+                    <div class="footerNavigationCategory__sub">
+                        <div class="footerNavigationCategory__title">Турниры</div>
+                        <div class="footerNavigationCategoryBox">
+                            <div class="footerNavigationCategoryBox__content">
+                                <ul class="footerNavigationCategoryList">
+                                    <li class="footerNavigationCategoryList__item">
+                                        <a href="javascript://" class="footerNavigationCategoryList__link">Лига
+                                            чемпионов</a>
+                                    </li>
+                                    <li class="footerNavigationCategoryList__item">
+                                        <a href="javascript://" class="footerNavigationCategoryList__link">Лига
+                                            Европы</a>
+                                    </li>
+                                    <li class="footerNavigationCategoryList__item">
+                                        <a href="javascript://" class="footerNavigationCategoryList__link">Чемпионат
+                                            Мира
+                                            2018</a>
+                                    </li>
+                                    <li class="footerNavigationCategoryList__item">
+                                        <a href="javascript://" class="footerNavigationCategoryList__link">Лига
+                                            Наций</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footerNavigationCategory__sub">
+                        <div class="footerNavigationCategory__title">Разное</div>
+                        <div class="footerNavigationCategoryBox">
+                            <div class="footerNavigationCategoryBox__content">
+                                <ul class="footerNavigationCategoryList">
+                                    <li class="footerNavigationCategoryList__item">
+                                        <a href="javascript://" class="footerNavigationCategoryList__link">Рейтинг
+                                            ФИФА</a>
+                                    </li>
+                                    <li class="footerNavigationCategoryList__item">
+                                        <a href="javascript://" class="footerNavigationCategoryList__link">Рейтинг
+                                            УЕФА</a>
+                                    </li>
+                                    <li class="footerNavigationCategoryList__item">
+                                        <a href="javascript://" class="footerNavigationCategoryList__link">Рейтинг
+                                            клубов</a>
+                                    </li>
+                                    <li class="footerNavigationCategoryList__item">
+                                        <a href="javascript://" class="footerNavigationCategoryList__link">Трансферы</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footerMenu">
                 <ul class="footerMenuSocialMediaList">
                     <li class="footerMenuSocialMediaList__item">
                         <a href="https://twitter.com" class="footerMenuSocialMediaList__link" target="_blank">
-                            <i class="footerMenuSocialMediaList__icon footerMenuSocialMediaList__icon_twitter"></i>
+                            <svg class="footerMenuSocialMediaList__icon footerMenuSocialMediaList__icon_twitter"
+                                 xmlns="http://www.w3.org/2000/svg" width="28" height="23" viewBox="0 0 28 23">
+                                <g>
+                                    <g>
+                                        <path fill="#55acee"
+                                              d="M27.994 2.722a11.32 11.32 0 0 1-3.299.914A5.818 5.818 0 0 0 27.221.424a11.43 11.43 0 0 1-3.647 1.408A5.713 5.713 0 0 0 19.381 0c-3.172 0-5.742 2.6-5.742 5.806 0 .455.05.899.148 1.324-4.773-.242-9.005-2.554-11.838-6.067a5.838 5.838 0 0 0-.777 2.92 5.823 5.823 0 0 0 2.554 4.833 5.68 5.68 0 0 1-2.6-.726l-.001.072c0 2.814 1.979 5.16 4.606 5.694a5.715 5.715 0 0 1-2.592.1c.73 2.305 2.851 3.984 5.363 4.032a11.438 11.438 0 0 1-8.501 2.406A16.139 16.139 0 0 0 8.804 23c10.563 0 16.341-8.847 16.341-16.52 0-.252-.007-.503-.017-.752a11.73 11.73 0 0 0 2.866-3.006z"/>
+                                    </g>
+                                </g>
+                            </svg>
                         </a>
                     </li>
                     <li class="footerMenuSocialMediaList__item">
                         <a href="https://www.facebook.com" class="footerMenuSocialMediaList__link" target="_blank">
-                            <i class="footerMenuSocialMediaList__icon footerMenuSocialMediaList__icon_facebook"></i>
+                            <svg class="footerMenuSocialMediaList__icon footerMenuSocialMediaList__icon_facebook"
+                                 xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                                <g>
+                                    <g>
+                                        <path fill="#3b5998"
+                                              d="M26 24.374c0 .898-.728 1.625-1.625 1.625H1.625A1.625 1.625 0 0 1 0 24.374V1.624C0 .729.728 0 1.625 0h22.75C25.272 0 26 .728 26 1.625z"/>
+                                    </g>
+                                    <g>
+                                        <path fill="#fff"
+                                              d="M17.875 26v-9.75h3.25l.812-4.063h-4.062v-1.625c0-1.625.814-2.437 2.437-2.437h1.625V4.062h-3.25c-2.985 0-4.875 2.34-4.875 5.687v2.438h-3.25v4.062h3.25V26z"/>
+                                    </g>
+                                </g>
+                            </svg>
                         </a>
                     </li>
                     <li class="footerMenuSocialMediaList__item">
                         <a href="https://myaccount.google.com/" class="footerMenuSocialMediaList__link" target="_blank">
-                            <i class="footerMenuSocialMediaList__icon footerMenuSocialMediaList__icon_googlePlus"></i>
+                            <svg class="footerMenuSocialMediaList__icon footerMenuSocialMediaList__icon_googlePlus"
+                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 width="26" height="26"
+                                 viewBox="0 0 26 26">
+                                <g>
+                                    <g>
+                                        <image width="26" height="26"
+                                               xlink:href="data:image/png;base64,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"/>
+                                    </g>
+                                </g>
+                            </svg>
                         </a>
                     </li>
                     <li class="footerMenuSocialMediaList__item">
                         <a href="https://www.youtube.com" class="footerMenuSocialMediaList__link" target="_blank">
-                            <i class="footerMenuSocialMediaList__icon footerMenuSocialMediaList__icon_youtube"></i>
+                            <svg class="footerMenuSocialMediaList__icon footerMenuSocialMediaList__icon_youtube"
+                                 xmlns="http://www.w3.org/2000/svg" width="31" height="22" viewBox="0 0 31 22">
+                                <g>
+                                    <g>
+                                        <path fill="#d9252a"
+                                              d="M30.265 3.642A3.881 3.881 0 0 0 27.532.895c-2.41-.65-12.076-.65-12.076-.65s-9.667 0-12.077.65A3.881 3.881 0 0 0 .646 3.642C0 6.066 0 11.122 0 11.122s0 5.057.646 7.48a3.881 3.881 0 0 0 2.733 2.748c2.41.65 12.077.65 12.077.65s9.666 0 12.076-.65a3.881 3.881 0 0 0 2.733-2.748c.646-2.423.646-7.48.646-7.48s0-5.056-.646-7.48"/>
+                                    </g>
+                                    <g>
+                                        <path fill="#fffffe" d="M12.364 15.784l8.031-4.661-8.03-4.662v9.323"/>
+                                    </g>
+                                </g>
+                            </svg>
                         </a>
                     </li>
                 </ul>
+                <div class="footerMenuNavigation">
+                    <ul class="footerMenuList">
+                        <li class="footerMenuList__item">
+                            <a href="javascript://" class="footerMenuList__link">О проекте</a>
+                        </li>
+                        <li class="footerMenuList__item">
+                            <a href="javascript://" class="footerMenuList__link">Реклама на сайте</a>
+                        </li>
+                        <li class="footerMenuList__item">
+                            <a href="javascript://" class="footerMenuList__link">RSS</a>
+                        </li>
+                        <li class="footerMenuList__item">
+                            <a href="javascript://" class="footerMenuList__link">Политика Конфиденциальности</a>
+                        </li>
+                        <li class="footerMenuList__item desktopSite">
+                            <a href="javascript://" class="footerMenuList__link">ПК версия</a>
+                        </li>
+                    </ul>
+                    <a href="javascript://" class="mobileSite">Мобильная Версия</a>
+                </div>
             </div>
-            <ul class="footerMenuList">
-                <li class="footerMenuList__item">
-                    <a href="javascript://" class="footerMenuList__link">О проекте</a>
-                </li>
-                <li class="footerMenuList__item">
-                    <a href="javascript://" class="footerMenuList__link">Реклама на сайте</a>
-                </li>
-                <li class="footerMenuList__item">
-                    <a href="javascript://" class="footerMenuList__link">RSS</a>
-                </li>
-                <li class="footerMenuList__item">
-                    <a href="javascript://" class="footerMenuList__link">Политика Конфиденциальности</a>
-                </li>
-            </ul>
-            <a href="javascript://" class="mobileSite">Мобильная Версия</a>
+            <div class="footerInfo">
+                <div class="legalInfo">
+                    <a href="javascript://" class="footer__logo"></a>
+                    <div class="legalInfo__text">
+                        <p>© UA-Футбол 2002-2018.</p>
+                        <p>Все права на материалы, находящиеся на сайте www.ua-football.com, охраняются в соответствии с
+                            законодательством Украины.</p>
+                        <p>Материалы сайта предназначены для лиц старше 18 лет (18+).</p>
+                        <p>Пишите нам: info@ua-football.com</p>
+                    </div>
+                </div>
+                <div class="aplications">
+                    <p>Наша апликуха на сторах:</p>
+                    <div class="aplications__container">
+                        <img class="aplications__icon aplications__icon_appStore" src="./img/appstore.png"
+                             alt="App store icon">
+                        <img class="aplications__icon aplications__icon_googlePlay" src="./img/googlePlay.png"
+                             alt="Google play icon">
+                    </div>
+                </div>
+            </div>
         </div>
-
-
     </div>
-
-
 </footer>
-
-
 </body>
 </html>

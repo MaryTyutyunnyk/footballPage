@@ -1,12 +1,26 @@
 .footer {
  background-color: #202020;
+
+  &__content {
+    padding: 24px 0 48px;
+    color: $white;
+  }
+
+  &__logo {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 11px;
+    width: 74px;
+    height: 24px;
+    background-image: url("../../../img/footerLogo.svg");
+  }
 }
 
 .footerNavigation {
   display: flex;
   flex-direction: column;
-  padding: 24px 20px 48px;
-  color: $white;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .footerNavigationCategory {
@@ -17,7 +31,7 @@
     width: 46%;
 
     &:first-child {
-      margin-right: 6%;
+      margin-right: 4%;
     }
   }
 
@@ -64,3 +78,129 @@
     font-size: 12px;
   }
 }
+
+.footerMenu {
+  display: flex;
+  flex-direction: column;
+  padding: 19px 0 25px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footerMenuSocialMediaList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 11px;
+
+  &__item {
+    margin-right: 40px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    display: inline-flex;
+  }
+
+  &__icon {
+    display: inline-block;
+
+    &_twitter {
+      width: 28px;
+      height: 23px;
+    }
+
+    &_facebook {
+      width: 26px;
+      height: 26px;
+    }
+
+    &_googlePlus {
+      width: 26px;
+      height: 26px;
+    }
+
+    &_youtube {
+      width: 31px;
+      height: 22px;
+    }
+  }
+}
+
+.footerMenuNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerMenuList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+
+  &__item {
+    margin-right: 33px;
+    padding-top: 14px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    color: $white;
+    font-size: 12px;
+  }
+}
+
+.mobileSite {
+  display: none;
+}
+
+.footerInfo {
+  padding-top: 32px;
+}
+
+.legalInfo {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  &__text {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.54;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+  }
+}
+
+.aplications {
+
+  padding: 24px 20px 0;
+
+  p {
+    display: none;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__icon {
+    width: 129px;
+    height: 40px;
+
+    &_appStore {
+      height: 56px;
+    }
+  }
+}
+

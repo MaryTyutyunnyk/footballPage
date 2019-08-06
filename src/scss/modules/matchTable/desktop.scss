@@ -4,10 +4,30 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 16px;
-    
-    &__arrow {
-      cursor: pointer;
+  }
+
+  .matchTableArrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+    &__previous {
+      display: inline-block;
+      width: 7px;
+      height: 11px;
+      background-image: url("../../../img/matchTableArrow__previous.png");
     }
+
+    &__next {
+      display: inline-block;
+      width: 7px;
+      height: 11px;
+      background-image: url("../../../img/matchTableArrow__next.png");
+    }
+
   }
 
   .matchTableList {
