@@ -35,11 +35,11 @@
       height: 11px;
 
       &_previous {
-        background-image: url("../../../img/matchTableArrow__previous.png");
+        background-image: url("../img/matchTableArrow__previous.png");
       }
 
       &_next {
-        background-image: url("../../../img/matchTableArrow__next.png");
+        background-image: url("../img/matchTableArrow__next.png");
       }
     }
   }
@@ -58,7 +58,7 @@
     }
 
     &__title {
-      padding: 15px 0px 12px;
+      padding: 15px 0 12px;
       font-size: 20px;
     }
 
@@ -87,6 +87,8 @@
   }
 
   .news {
+    margin-top: 16px;
+
     &__loadMore {
       display: none;
     }
@@ -114,6 +116,11 @@
 
   .newsFeedItem {
     padding: 0 18px 16px 18px;
+    transition: .3s;
+
+    &:hover .newsFeedItem__title {
+      color: #f5a623;
+    }
 
     &__header {
       display: flex;
@@ -146,7 +153,6 @@
 
     &__title {
       font-size: 16px;
-      font-weight: 500;
       line-height: normal;
     }
 

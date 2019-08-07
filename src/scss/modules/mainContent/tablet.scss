@@ -1,5 +1,11 @@
 @media (min-width: 740px) {
-  //.mainSliderNavigation {
-  //  position: inherit;
-  //}
+  .mainContent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .mainNews {
+    margin-right: 21px;
+  }
 }

@@ -83,7 +83,7 @@
     margin-right: 3px;
     width: 10px;
     height: 10px;
-    background-image: url("../../../img/comment.svg");
+    background-image: url("../img/comment.svg");
   }
 
   &__paragraph {
@@ -149,6 +149,8 @@
 }
 
 .newsFeed {
+  display: flex;
+  flex-direction: column;
   padding: 0 10px;
   border-top: 1px solid #f4f5f6;
   border-bottom: 1px solid #f4f5f6;
@@ -162,14 +164,8 @@
   &__info {
     display: flex;
     justify-content: space-between;
-    position: inherit !important;
     margin-bottom: 9px;
   }
-
-  &__comments {
-    position: inherit !important;
-  }
-
 }
 
 .newsFeedItem {
@@ -205,7 +201,7 @@
     margin-right: 3px;
     width: 10px;
     height: 10px;
-    background-image: url("../../../img/comment_blue.svg");
+    background-image: url("../img/comment_blue.svg");
   }
 
   &__content {
@@ -222,7 +218,7 @@
     margin-bottom: 5px;
     color: $black;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 19px;
   }
 
@@ -252,11 +248,11 @@
     height: 11px;
 
     &_previous {
-      background-image: url("../../../img/matchTableArrow__previous.png");
+      background-image: url("../img/matchTableArrow__previous.png");
     }
 
     &_next {
-      background-image: url("../../../img/matchTableArrow__next.png");
+      background-image: url("../img/matchTableArrow__next.png");
     }
   }
 
